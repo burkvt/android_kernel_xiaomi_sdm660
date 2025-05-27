@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/burkvt/android_kernel_xiaomi_sdm660
           kernel-dir: kernel
           kernel-branch: lineage-21-4.19
-          config: jason_defconfig
+          config: defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
