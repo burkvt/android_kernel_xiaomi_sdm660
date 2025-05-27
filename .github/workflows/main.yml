@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - lineage-21-4.19
+      - lineage-21-4.4
   workflow_dispatch:
 
 jobs:
