@@ -1,6 +1,10 @@
 # A simple action usage
 name: Build Kernel
+
 on:
+  push:
+    branches:
+      - lineage-21-4.19
   workflow_dispatch:
 
 jobs:
