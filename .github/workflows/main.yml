@@ -16,7 +16,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/burkvt/android_kernel_xiaomi_sdm660
-          kernel-dir: msm-4.19
+          kernel-dir: kernel
           kernel-branch: lineage-21-4.19
           config: jason_defconfig
           arch: arm64
